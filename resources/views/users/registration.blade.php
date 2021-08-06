@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login Page</title>
+	<title>Registration</title>
 	<link rel="stylesheet" href="style/style.css">
 
 <!-- Boostrap CSS -->
@@ -23,7 +23,7 @@
 	.cont {
 		border-radius: 20px;
 		background: rgb(20, 150, 190, 70%);
-		height: 420px;
+		height: 510px;
 		width: 400px;
 	}
 
@@ -53,9 +53,12 @@
 
 	<section class="login_section d-flex align-items-center justify-content-center text-light">
 		<div class="container cont p-4">
-			<h1 class="text-center">Login</h1>
-			
+			<h1 class="text-center">Register</h1>
 			<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Username</label>
+			    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			  </div>			  
 			  <div class="form-group">
 			    <label for="exampleInputEmail1">Email address</label>
 			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -64,15 +67,15 @@
 			    <label for="exampleInputPassword1">Password</label>
 			    <input type="password" class="form-control" id="exampleInputPassword1">
 			  </div>
-			  <button type="submit" class="btn btn-primary">Login</button>
+			  <button type="submit" class="btn btn-primary">Register</button>
 			</form>
 
 			<div class="separator align-self-center"></div>
-
 			<!-- Button trigger modal -->
 			<button type="button" class="btn btn-primary my-2 qr_button_box" data-toggle="modal" data-target="#exampleModal">
 			  Login via QR Code
 			</button>
+
 			<!-- Modal -->
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			  <div class="modal-dialog">
@@ -101,7 +104,7 @@
 			  </div>
 			</div>
 			<div class="registration text-center my-2">
-				<p>You not have account?<a href="{{ route('register') }}"> Register</a></p>
+				<p>You have an account?<a href="{{ route('login')}}"> Login</a></p>
 			</div>
 		</div>
 	</section>
