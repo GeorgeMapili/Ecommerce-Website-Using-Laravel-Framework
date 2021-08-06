@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,4 +21,7 @@ Route::get('/', function () {
 
 
 // Homepage
-Route::get('/homepage',[HomepageController::class,'homepage']);
+Route::get('/homepage', [HomepageController::class,'homepage']);
+Route::get('/cart', [HomepageController::class, 'cartpage']);
+Route::get('/wishlist', [HomepageController::class, 'wishlistpage']);
+Route::get('/deliver', [HomepageController::class, 'deliverpage']);
