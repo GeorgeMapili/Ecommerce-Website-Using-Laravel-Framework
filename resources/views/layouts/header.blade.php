@@ -1,49 +1,39 @@
 <section class="header">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fluid">
-	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#">Logo</a>
-	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	    </button>
-	    <div class="collapse navbar-collapse" id="navbarScroll">
-	      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="#">Home</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#">Link</a>
-	        </li>
-	        <li class="nav-item dropdown">
-	          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-	            Link
-	          </a>
-	          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-	            <li><a class="dropdown-item" href="#">Action</a></li>
-	            <li><a class="dropdown-item" href="#">Another action</a></li>
-	            <li><hr class="dropdown-divider"></li>
-	            <li><a class="dropdown-item" href="#">Something else here</a></li>
-	          </ul>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
-	        </li>
-	      </ul>
-	      <form class="d-flex">
-	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-	        <button class="btn btn-outline-success" type="submit">Search</button>
-	      </form>
-	    </div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#">LOGO</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Dropdown
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
 	  </div>
 	</nav>
 </section>
+
 <section class="small_nav">
-	<div class="container-fluid bg-dark">
-		<ul class="d-flex text-light">
-			<li>home</li>
-			<li>home</li>
-			<li>home</li>
-			<li>home</li>
-			
-		</ul>
+	<div class="container-fluid bg-dark d-flex justify-content-center text-center">
+		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
+		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
+		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
+		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
 	</div>
 </section>
