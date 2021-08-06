@@ -31,9 +31,9 @@
 
 <section class="small_nav">
 	<div class="container-fluid bg-dark d-flex justify-content-center text-center">
-		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
-		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
-		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
-		<div class="p-2	nav_links "><a class="text-light" href="">Home</a></div>
+		<div class="p-2	nav_links "><a class="text-light" href="{{ route('/') }}">Home</a></div>
+		<div class="p-2	nav_links "><a class="text-light" href="{{ route('cart') }}">Cart</a></div>
+		<div class="p-2	nav_links "><a class="text-light" href="{{ route('deliver') }}">Wishlist</a></div>
+		<div class="p-2	nav_links "><a class="text-light" href="{{ route('wishlist') }}">Deliver</a></div>
 	</div>
 </section>
