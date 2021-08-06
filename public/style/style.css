@@ -11,10 +11,14 @@ body {
 	width: 100%;
 }
 .card_buttons {
-	width: 80%;
+	width: 100%;
 	margin: 5px;
 }
 
 .main_content {
 
+}
+
+.card_image {
+	height: 350px;
 }

@@ -9,6 +9,13 @@
 <!-- Boostrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
+<style type="text/css">
+	body {
+		background-image: url("https://bit.ly/3s0mNhR");
+		background-repeat: repeat;
+		background-size: cover;
+	}
+</style>
 <body>
 
 	@include('layouts.header')
