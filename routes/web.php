@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 
 // Homepage
-Route::get('/homepage', [HomepageController::class,'homepage']);
-Route::get('/cart', [HomepageController::class, 'cartpage']);
-Route::get('/wishlist', [HomepageController::class, 'wishlistpage']);
-Route::get('/deliver', [HomepageController::class, 'deliverpage']);
+Route::get('/homepage', [HomepageController::class,'homepage'])->name('/');
+Route::get('/cart', [HomepageController::class, 'cartpage'])->name('cart');
+Route::get('/wishlist', [HomepageController::class, 'wishlistpage'])->name('wishlist');
+Route::get('/deliver', [HomepageController::class, 'deliverpage'])->name('deliver');
