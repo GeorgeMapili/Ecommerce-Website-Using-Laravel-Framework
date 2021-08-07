@@ -104,7 +104,7 @@
 			  </div>
 			</div>
 			<div class="registration text-center my-2">
-				<p>You have an account?<a href="{{ route('login')}}"> Login</a></p>
+				<p>You have an account?<a href="{{ route('/')}}"> Login</a></p>
 			</div>
 		</div>
 	</section>

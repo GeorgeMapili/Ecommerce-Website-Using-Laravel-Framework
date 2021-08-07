@@ -15,20 +15,18 @@ use App\Http\Controllers\PageController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 
 // Homepage
-Route::get('/homepage', [HomepageController::class,'homepage'])->name('/');
+Route::get('/homepage', [HomepageController::class,'homepage'])->name('homepage');
 Route::get('/cart', [HomepageController::class, 'cartpage'])->name('cart');
 Route::get('/wishlist', [HomepageController::class, 'wishlistpage'])->name('wishlist');
 Route::get('/deliver', [HomepageController::class, 'deliverpage'])->name('deliver');
 
-
-
 // Login
-Route::get('/login', [PageController::class, 'login'])->name('login');
+Route::get('/', [PageController::class, 'login'])->name('/');
 Route::get('/registration', [PageController::class, 'register'])->name('register');
